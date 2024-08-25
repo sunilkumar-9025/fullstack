@@ -1,0 +1,23 @@
+.invalid-feedback{
+  display: inline;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .p-10 {
+    padding: 10px;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  .text-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
