@@ -19,7 +19,7 @@ body {
     overflow: hidden;
     width: 968px;
     max-width: 100%;
-    min-height: 550px;
+    min-height: 650px;
 
     .login-arrow-btn {
       position: absolute;
@@ -221,7 +221,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .login .container .sign-in-container {
     width: 100%;
   }
