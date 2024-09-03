@@ -17,7 +17,15 @@ function App() {
         theme="colored"
       />
       <HashRouter>
-        <AuthPage />
+        {/* <AuthPage /> */}
+        <div className="fx-block">
+          <div className="toggle">
+            <div>
+              <input type="checkbox" id="toggles" />
+              <div data-unchecked="Overall Dashboard" data-checked="Module Dashboard"></div>
+            </div>
+          </div>
+        </div>
       </HashRouter>
     </>
   );
